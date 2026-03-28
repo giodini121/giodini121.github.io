@@ -200,6 +200,9 @@ details summary {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 0.9rem;
 }
+.paper details {
+  margin-top: 0.35rem;
+}
 details[open] summary { margin-bottom: 0.5rem; }
 details p { font-size: 0.95rem; color: var(--text-muted); }
 .teaching-item { margin-bottom: 1.25rem; }
