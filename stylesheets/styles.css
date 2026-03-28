@@ -92,6 +92,13 @@ header .tagline {
   border-radius: 6px;
   border: 1px solid var(--border);
 }
+.office-address {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin: 0 0 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
 .theme-toggle {
   display: inline-flex;
   align-items: center;
