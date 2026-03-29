@@ -1,8 +1,8 @@
-# giorgiodini.github.io
+# giodini121.github.io
 
 Personal academic website (English), hosted on [GitHub Pages](https://pages.github.com/).
 
-**Live site:** https://giorgiodini.github.io/
+**Live site:** https://giodini121.github.io/
 
 ## Local setup
 
@@ -13,11 +13,13 @@ Then open `index.html` in a browser or push this folder to GitHub:
 
 ```bash
 cd giorgiodini.github.io
-git remote add origin https://github.com/giorgiodini/giorgiodini.github.io.git
+git remote add origin https://github.com/giodini121/giorgiodini.github.io.git
 git push -u origin main
 ```
 
 In the repository on GitHub: **Settings → Pages** → deploy from branch **`main`**, folder **`/ (root)`**.
+
+For a root URL at `https://giodini121.github.io/`, rename the repository on GitHub to **`giodini121.github.io`** (must match your username), then update `git remote` to that URL.
 
 ## Edit content
 
