@@ -206,6 +206,32 @@ details summary {
 details[open] summary { margin-bottom: 0.5rem; }
 details p { font-size: 0.95rem; color: var(--text-muted); }
 .teaching-item { margin-bottom: 1.25rem; }
+.outside-page p {
+  margin-bottom: 1.1rem;
+  line-height: 1.7;
+}
+.outside-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+.outside-gallery figure {
+  margin: 0;
+}
+.outside-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.outside-gallery figcaption {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.4rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
 .teaching-item h3 { margin-bottom: 0.35rem; }
 .cv-toolbar {
   display: flex;
