@@ -314,21 +314,6 @@ footer a { font-weight: 500; }
 @media print, screen and (max-width: 800px) {
   .wrapper { flex-direction: column; }
   header { position: static; width: 100%; }
-  .site-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  .site-nav a {
-    border-left: none;
-    border-bottom: 2px solid transparent;
-    padding-left: 0;
-    margin-left: 0;
-  }
-  .site-nav a[aria-current="page"] {
-    border-left: none;
-    border-bottom-color: var(--color-primary);
-  }
 }
 @media print {
   body { padding: 0; }
