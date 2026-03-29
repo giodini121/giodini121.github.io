@@ -7,7 +7,7 @@ Personal academic website (English), hosted on [GitHub Pages](https://pages.gith
 ## Local setup
 
 1. **`personal/profile.png`** — sidebar photo (included in the repo).
-2. Add **`personal/academic_cv.pdf`** (used on the home download button, CV page embed, and download).
+2. **`personal/academic_cv.pdf`** — CV PDF (included; replace this file when you update your CV).
 
 Then open `index.html` in a browser or push this folder to GitHub:
 
