@@ -9,6 +9,13 @@
     root.setAttribute("data-theme", theme);
     var meta = document.querySelector('meta[name="color-scheme"]');
     if (meta) meta.setAttribute("content", theme === "dark" ? "dark" : "light");
+    var btn = document.getElementById("theme-toggle");
+    if (btn) {
+      btn.setAttribute(
+        "aria-label",
+        theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
+      );
+    }
   }
   function init() {
     var stored = getStored();
