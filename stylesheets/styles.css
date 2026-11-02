@@ -374,8 +374,8 @@ hr {
 .news-block li { margin-bottom: 0.85rem; }
 .news-block li:last-child { margin-bottom: 0; }
 .paper {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.25rem;
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.7rem;
   border-bottom: 1px solid var(--border);
 }
 .paper:last-child { border-bottom: none; }
